@@ -1,0 +1,161 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+[id] {
+  scroll-margin-top: 84px;
+}
+
+.navbar .container .nav-link {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.navbar .container .navbar-brand {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.navbar .container .navbar-brand i {
+  color: #ff6600;
+}
+
+.navbar .container .navbar-toggler {
+  padding: 1em 2em;
+}
+
+.navbar .container .navbar-toggler-icon {
+  font-size: 1.8rem;
+}
+
+.navbar .container .collapse {
+  text-transform: uppercase;
+}
+
+.home {
+  position: relative;
+  height: 60rem;
+  z-index: 0;
+  background-image: url("../img/buildings-1850129_1920.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home .hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.home .btn {
+  padding: 1em 2em;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.home .welcome-text {
+  font-size: 2.2rem;
+}
+
+.aboutus .aboutus-boxes .aboutus-box h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-boxes .aboutus-box .aboutus-icone {
+  font-size: 4rem;
+}
+
+.aboutus .aboutus-boxes .aboutus-box p {
+  font-size: 1.5rem;
+}
+
+.aboutus .aboutus-text p {
+  color: #ff6600;
+}
+
+.aboutus .accordion .accordion-button {
+  padding: 1em;
+  font-size: 1.8rem;
+}
+
+.aboutus .accordion .accordion-body {
+  font-size: 1.5rem;
+}
+
+.aboutus .accordion-button:not(.collapsed) {
+  color: #e96a16;
+  background-color: #f8f8f8;
+}
+
+.team {
+  background-color: #f8f8f8;
+}
+
+.team h3 {
+  color: #ff6600;
+}
+
+.team .card-img-top {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card-title {
+  font-size: 2rem;
+}
+
+.contact .submit-form {
+  font-size: 1.6rem;
+}
+
+.contact .contact-info h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact .contact-info i, .contact .contact-info .name-company {
+  color: #ff6600;
+}
+
+@media (min-width: 768px) {
+  .aboutus .aboutus-boxes .black {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    background-image: url("../img/buildings-1850129_1920.jpg");
+  }
+  .aboutus .aboutus-boxes .black {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  [id] {
+    scroll-margin-top: 69px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
